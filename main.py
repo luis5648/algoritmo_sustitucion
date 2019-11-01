@@ -10,7 +10,7 @@ if len(palabra) == len(llave):
         p =  listaDePrueba.index(x) + 1
         l =  listaDePrueba.index(y)
         encrip = p+l
-        print(listaDePrueba[encrip],end="")
+        print(listaDePrueba[encrip].upper(),end="")
 
 else:
     print("la palabra es demasiado grande!")
