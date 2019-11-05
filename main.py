@@ -15,5 +15,5 @@ if len(palabra) == len(llave):
 else:
     print("la palabra es demasiado grande!")
 
-
+print("\n")
     
