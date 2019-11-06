@@ -3,10 +3,8 @@
 #programa de transposicion.
 
 def encryptMessage(key, message):
-#Cada cadena de texto en el mensaje cifrado representa una columna en la matriz
     ciphertext = [''] * key
 
-    # recorremos las colimnas
     for col in range(key):
         pointer = col
 
@@ -18,7 +16,6 @@ def encryptMessage(key, message):
             #mueve el puntero al siguiente elemento de la columna
             pointer += key
 
-    # Convertimos la lista en una cadena de texto y  lo retornamos
     return ''.join(ciphertext)
 
 
